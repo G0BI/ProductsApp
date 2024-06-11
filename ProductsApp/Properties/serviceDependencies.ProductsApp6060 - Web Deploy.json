@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Web/sites/ProductsApp6060/providers/Microsoft.ServiceLinker/linkers/productapp.database.windows.net_F22A011724",
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/productapp/databases/productdb",
+      "type": "mssql.azure",
+      "connectionId": "productapp.database.windows.net",
+      "dynamicId": null
+    }
+  }
+}
